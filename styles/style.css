@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+:root {
+    --preto : #000000;
+    --branco : #f6f6f6;
+    --azul : #22D4FD;
+    --cor_hover : #272727;
+}
+
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+
+body {
+    /*  height: 100vh;  Faz a tela utilizar 100% do espaço em altura */
+    box-sizing: border-box;
+    
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+
+.titulo {
+    color: #22D4FD;
+}
+
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px
+
+}
+
+.cabecalho_link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--azul);
+    text-decoration: none;
+
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex; /* Faz parte do flexbox */
+    align-items: center; /*Alinha tudo conforme a imagem */
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.apresentacao__conteudo {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    size: 24px;
+    color: var(--branco);
+    text-align: center;
+    width: 351px;
+    height: 40px;
+
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; /* colocando os butoes como coluna vertical */
+    align-items: center;
+    gap: 32px;
+}
+
+.links_botoes {
+    /* background-color: #22D4FD; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px; /* Fala sobre o quanto a borda e curva*/
+    padding: 21.5px 0;
+    text-decoration: none;
+    color:var(--branco);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: 2px solid var(--azul);
+    border-radius: 8px;
+    size: 24px;
+}
+
+
+.links_botoes:hover { /*  Mudar a cor quando passa por cima do botao */
+    background-color: var(--cor_hover);
+}
+
+
+.rodape {
+    color: #000000;
+    background-color:var(--azul);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 24px;
+    text-align: center;
+}
+
+.foto {
+    width: 35%;
+    border-style:outset;
+    border-radius: 10%;
+}
+
+.fotos_portifolio {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .foto_portifolio {
+    width: 40%; /* ou qualquer outro valor que você queira */
+}
