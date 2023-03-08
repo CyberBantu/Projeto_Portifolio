@@ -68,3 +68,26 @@ body {
     border-style:outset;
     border-radius: 10%;
 }
+
+/* blog */
+.box_captura {
+    height: 180px;
+    background-color: #000000;
+}
+
+.conteudo {
+    height: 300px;
+    background-color: #22D4FD;
+}
+
+.post_left {
+    height: 100%;
+    background-color: #22D4FD;
+    width: 50%;
+}
+
+.sidebar_right {
+    height: 100%;
+    background-color: green;
+    width: 50px
+}
